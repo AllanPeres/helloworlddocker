@@ -1,9 +1,7 @@
 version: "3"
 services:
   helloworld:
-    image: allanteste/helloworld
-    build:
-      context: ./
+    build: ./
     ports:
       - "8080:8080"
     environment:
